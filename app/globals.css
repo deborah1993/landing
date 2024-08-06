@@ -3,21 +3,21 @@
 @tailwind utilities;
 
 :root {
-  --foreground-rgb: 0, 0, 0;
+  --foreground-rgb: 1 26 65;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+    --foreground-rgb: 0, 0, 0;
+    --background-start-rgb: 245, 245, 245;
+    --background-end-rgb: 245, 245, 245;
   }
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
+  color: #0B2C5E;
   background: linear-gradient(
       to bottom,
       transparent,
@@ -30,4 +30,16 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+.custom-bg-hero {
+  background-image: url('/tr-dark-bg.svg');
+  background-size: cover; 
+   background-position: center; 
+}
+
+.custom-bg-home {
+  background-image: url('/main-background.svg');
+  background-size: cover; 
+  background-position: center; 
 }
