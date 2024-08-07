@@ -39,9 +39,9 @@ export default function CardInfo({title, description, secondDescription, feature
   Features
 </p>
   {features.map(((element, i)=> (
-    <div className="flex">
+    <div className="flex" key={i}>
       <div className="list-item-cards-info"></div>
-    <p key={i} className="text-[gray]">
+    <p  className="text-[gray]">
         {`${element}`}
     </p>
     </div>
