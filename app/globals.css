@@ -43,3 +43,46 @@ body {
   background-size: cover; 
   background-position: center; 
 }
+
+.circle {
+  align-items: center;
+  background-color: #fff;
+  border-radius: 100%;
+  box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, .1);
+  display: flex;
+  flex-direction: column;
+  height: 15rem;
+  justify-content: center;
+  margin: 0 auto 3rem;
+  padding: 3rem;
+  width: 15rem;
+}
+
+.stat-number {
+    color: #00c4b3;
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.stat-subhead {
+  font-weight: 700;
+}
+
+.list-item-cards-info {
+    border-right: 15px solid #00c4b3;
+    border-top: 15px solid transparent;
+    content: "";
+    display: inline-block;
+    margin-right: 1rem;
+    margin-top: .5rem;
+    width: 0;
+    height: 0
+}
+
+.two-column-img-inner {
+  border-radius: 1.5rem;
+    display: block;
+    -webkit-filter: drop-shadow(0 0 10px rgba(0, 0, 0, .2));
+    filter: drop-shadow(0 0 10px rgb(0 0 0 / 20%));
+    width: 100%;
+}
