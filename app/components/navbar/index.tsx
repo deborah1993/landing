@@ -2,8 +2,10 @@
 
 import React from "react";
 import {Navbar, NavbarBrand, NavbarContent, NavbarItem, Link, Button, Image} from "@nextui-org/react";
+import { useRouter } from "next/navigation";
 
 export default function Nav() {
+  const router = useRouter()
   return (
     <Navbar className="bg-[#0B2C5E] py-2">
       <NavbarBrand className="flex items-center pb-3 rounded-none">
@@ -21,7 +23,7 @@ export default function Nav() {
           </Link>
         </NavbarItem>
         <NavbarItem>
-          <Link color="foreground" onClick={()=> window.open('https://landtech.us/about-us')}>
+          <Link color="foreground" onClick={()=> router.push('/about-us')}>
             About Us
           </Link>
         </NavbarItem>
