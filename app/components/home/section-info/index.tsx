@@ -69,7 +69,7 @@ function SectionInfo() {
     text-center'>
         <div className='circle'><img src="/info-section/house-search-icon.svg" alt="house-search-icon"  width="150" height="150"></img>
         </div>
-        <p>Nearly 1 million sites saved by some of the world's largest real estate developers, investors, consultants and agents.</p>
+        <p>{`Nearly 1 million sites saved by some of the world's largest real estate developers, investors, consultants and agents.`}</p>
     </div>
 
     <div id='middle' className='flex-1
@@ -78,7 +78,7 @@ function SectionInfo() {
         <div className='circle'><span className="stat-number">200</span>
         <span className="stat-subhead">people</span>
         </div>
-        <p>LandTech is an industry leader in proptech with over 100 data and engineer specialists supported by a 100-strong operations team.</p>
+        <p>{`LandTech is an industry leader in proptech with over 100 data and engineer specialists supported by a 100-strong operations team.`}</p>
     </div>
 
     <div id='right' className='flex-1
@@ -87,16 +87,16 @@ function SectionInfo() {
     text-center'>
         <div className='circle'><img src="/info-section/piggybank-icon.svg" alt="piggybank-icon"  width="150" height="150"></img>
         </div>
-        <p>Backed by $48 million from US and UK investors, including Updata, JLL Spark, Pi Labs and Flashpoint, we have the expertise to inform product direction, and the finance to build it.</p>
+        <p>{`Backed by $48 million from US and UK investors, including Updata, JLL Spark, Pi Labs and Flashpoint, we have the expertise to inform product direction, and the finance to build it.`}</p>
     </div>
     </div>
         </div>
         <p className="text-[2rem] font-[800]">
-        Your whole front office. One customer platform.
+        {`Your whole front office. One customer platform.`}
       </p>
 
       <p className="text-[1rem] w-[65%]">
-      HubSpot brings your marketing, sales, and service teams together on the same AI-powered customer platform. It's easy to use, provides value fast, and gives all teams a unified view of the customer at every stage in their journey. Each product in the platform is powerful on its own, but the real magic happens when you use them together.
+      {`HubSpot brings your marketing, sales, and service teams together on the same AI-powered customer platform. It's easy to use, provides value fast, and gives all teams a unified view of the customer at every stage in their journey. Each product in the platform is powerful on its own, but the real magic happens when you use them together.`}
       </p>
 
       <div className="flex gap-3">
